@@ -1,0 +1,173 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    
+  }
+
+.body {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom:15px;
+  box-shadow: 1px 5px 30px 10px rgb(105 255 227 / 20%); 
+  height: 47.7cm;
+}
+
+
+  
+.encabezado {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  height: 95px;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  width: 97.8%;
+  transition: top 0.3s ease; 
+  z-index: 1;
+
+/* Cuando se desplaza hacia abajo, muestra el menú */
+.scrolled-down .menu {
+  top: 0; /* Muestra el menú a la posición superior */
+}
+}
+
+.encabezado__titulo {
+    padding-left: 13px;
+    font-family: math;
+    font-size: 30px;
+}
+
+.encabezado__div {
+  display: flex;
+  align-items: center;
+}
+
+.encabezado__img {
+  padding-left: 95px;
+}
+  
+.encabezado__nav {
+    display: flex;
+    font-family: system-ui;
+    padding-right: 102px;
+  }
+  
+  .encabezado__nav__link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 15px;
+
+  }
+  
+.main {
+    color: white;
+    display: flex;
+    position: relative;
+    top: 130px;
+  }
+
+.main__subtitulo {
+    font-size: 40px;
+    font-family: Math;
+    text-align: center;
+    margin: 0;
+}
+
+.main__boton {
+    background: transparent;
+    border: 1px solid white;
+    height: 65px;
+    width: 189px;
+    border-radius: 5px;
+    color: white;
+    font-family: revert;
+    font-size: 25px;
+    position: relative;
+    top: 17px;
+}
+
+.encabezado__nav__link:hover {
+  box-shadow: 1px 5px 30px 10px rgb(105 255 227 / 20%);
+  cursor: pointer;
+}
+  
+.main__contenido {
+  width: 80%;
+  height: 250px;
+  align-items: flex-start;
+  padding-left: 100px;
+  background-image: url(../img/background.jpg);
+  background-size: 31cm;
+  background-position: 357px;
+  background-position-y: -86px;
+  box-shadow: 1px 5px 30px 10px rgb(105 255 227 / 20%);
+  margin: auto;
+  }
+
+.main__banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  position: absolute;
+  top: 40px;
+}
+  
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 10px 22px 94px;
+    text-align: start;
+    font-size: 20px;
+    min-height: 100vh;
+
+  }
+  
+  footer .piePagina__link {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  
+.main__boton:hover {
+    cursor: pointer;
+    box-shadow: 1px 5px 30px 10px rgb(105 255 227 / 20%);
+    transition: 0.3s;
+    text-decoration:underline;
+}
+
+/* Media queries para hacer la página responsive */
+@media (max-width: 768px) {
+    .encabezado {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado__titulo {
+      font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+      max-width: 100%; /* Ancho completo para pantallas de celular */
+      padding: 10px;
+  }
+}
