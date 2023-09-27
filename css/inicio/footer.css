@@ -1,0 +1,23 @@
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 10px 22px 94px;
+    text-align: start;
+    font-size: 20px;
+    min-height: 100vh;
+  
+  }
+    
+  footer .piePagina__link {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+    
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  

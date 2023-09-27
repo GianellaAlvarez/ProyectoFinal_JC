@@ -1,0 +1,24 @@
+.Boton {
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    margin-bottom: 0;;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    text-decoration: underline;
+}
